@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfolio.</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h3 class="home__intro">Hi,&nbsp;&nbsp;&nbsp;&nbsp;It's Me</h3>
+                    <h1 class="home__title">Sahadat Hossain</h1>
+                    <h3 class="home__subtitle">
+                        I am a&nbsp;<span class="typewriter-text"></span>
+                      </h3>
+                      <p style="margin-right: 20px; color: aliceblue;">
+                        Passionate Penetration Tester & Cybersecurity Researcher with hands-on experience in real-world attack simulations.<br>
+                        Specialized in red team operations, vulnerability assessments, and threat analysis.<br>
+                        I focus on ethical hacking, offensive security, and continuous self-improvement to stay ahead of evolving cyber threats.<br>
+                        Always exploring new tools, techniques, and exploits to strengthen digital defense strategies.
+                      </p>                      
+                      
+                </div>
+                
+                  
+
+                  <div class="home__social">
+                    <div class="social-icons">
+                      <a href="https://www.linkedin.com/in/pentester-sahadat-hossain/" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                      </a>
+                      <a href="https://x.com/sahadatsec" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-twitter'></i>
+                      </a>
+                      <a href="https://github.com/sahadatx" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-github'></i>
+                      </a>
+                      <a href="mailto:pentester.sahadathossain@gmail.com" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-gmail'></i>
+                      </a>
+                    </div>
+                  
+                    <div class="button-group">
+                        <a href="assets/img/Sahadat%20Hossain.pdf" download class="button">Download CV</a>
+                        <a href="https://www.linkedin.com/in/pentester-sahadat-hossain/" class="button button--outline">Hire Me</a>
+                    </div>                      
+                  </div>                  
+                
+             
+
+                <!-- <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/Formal.png"/>
+                        </g>
+                    </svg>
+                </div> -->
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/Formal5.png" alt="">
+                    </div>
+                    
+                    <div class="about__description">
+                        <p id="about-short">
+                            I am a passionate cybersecurity enthusiast and penetration tester with a strong focus on ethical hacking and red team assessments. My curiosity drives me to explore system vulnerabilities, exploit misconfigurations, and enhance digital defenses through practical experience. I’m dedicated to continuous learning, always staying up-to-date with evolving attack techniques and security tools. With hands-on experience in Active Directory attacks, network penetration testing, and vulnerability analysis, I approach each challenge with dedication, integrity, and a problem-solving mindset. 
+                            <span id="dots">...</span>
+                        </p>
+                        <p id="about-full" style="display: none;">
+                            I specialize in areas such as LLMNR/NBT-NS spoofing, Kerberoasting, Pass-the-Hash attacks, privilege escalation, and OSINT. I regularly work with tools like Burp Suite, Nmap, BloodHound, Metasploit, and custom scripts to automate and optimize testing processes. My experience also extends to secure coding practices, log analysis, digital forensics, and reporting methodologies that align with professional standards.  
+                            <br><br>
+                            My goal is not just to find vulnerabilities, but to understand the mindset of attackers, build resilient systems, and educate others on best security practices. I aim to contribute to a safer digital environment through ethical responsibility, deep technical insight, and a commitment to excellence.
+                        </p>
+                    
+                        <button onclick="toggleAbout()" id="read-more-btn" class="button button--flex" style="margin-top: 10px;">
+                            Read More
+                        </button>
+                    </div>
+                                                      
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">I believe every day is an opportunity to challenge myself, solve real-world problems, and sharpen my skills in cybersecurity. With an insatiable curiosity and a hands-on approach, I consistently explore and adapt to new threats, tools, and technologies.
+
+                            My expertise spans across Web Application Security, Penetration Testing, Bug Bounty Hunting, Digital Forensics, OSINT, System Exploitation, Active Directory Attacks, Networking, Linux Environments, and Secure Programming. I combine technical proficiency with a deep understanding of attack surfaces to identify vulnerabilities before adversaries do.</p>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bx-shield-quarter skills__icon'></i>
+                                    <span class="skills__name">Web Pentesting</span>
+                                </div>
+                                <div class="skills__bar skills__webpentest"></div>
+                                <div>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxs-server skills__icon'></i>
+                                    <span class="skills__name">Active Directory</span>
+                                </div>
+                                <div class="skills__bar skills__ad"></div>
+                                <div>
+                                    <span class="skills__percentage">80%</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bx-terminal skills__icon'></i>
+                                    <span class="skills__name">Linux</span>
+                                </div>
+                                <div class="skills__bar skills__linux"></div>
+                                <div>
+                                    <span class="skills__percentage">85%</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bx-code-alt skills__icon'></i>
+                                    <span class="skills__name">Programming</span>
+                                </div>
+                                <div class="skills__bar skills__programming"></div>
+                                <div>
+                                    <span class="skills__percentage">75%</span>
+                                </div>
+                            </div>
+                    </div>  
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== Certification =====-->
+            
+            <section class="certification section" id="certification">
+                <h2 class="section-title">My Certification</h2>
+                <div class="certification__container bd-grid">
+                    <a href="" class="certification_img">
+                        <img src="assets/img/Certificate.jpg" alt="">
+                    </a>
+                    
+                </div>
+            </section>
+
+
+            <!--===== CONTACT =====-->
+            <!-- <section class="contact section" id="contact">
+                <h2 class="section-title">Any Question</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" placeholder="Text" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section> -->
+
+            <section class="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="row">
+                    <div class="image">
+                        <img src="assets/img/Contact2.png" alt="" >
+                    </div>
+                    <form action="" id="form" method="post">
+                        <h3>Get In Touch</h3>
+                        <input type="text" placeholder="Enter Your Name" required maxlength="100" name="name" class="box">
+                        <input type="email" placeholder="Enter Your E-mail" required maxlength="100" name="email" class="box">
+                        <input type="text" placeholder="Enter Your Contact Number" required maxlength="100" name="number" class="box">
+                        <textarea name="msg" placeholder="Enter Your Message" class="box" required rows="30" cols="30"></textarea>
+                        <input type="submit" value="Send Message" class="button" id="contact_b" name="submit">
+                    </form>
+                </div>
+                
+                <!-- <div class="box-container">
+                   <div class="box">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone Number</h3>
+                        <a href="tel:01859920189"> 01859920189</a>
+                        
+                    </div>
+        
+                  <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>E-mail address</h3>
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJlDTMJQbPdcRDRxnkCfwZzjLztKNcnMLtqLqPrfMNXNBZfmtKmgGlTjvKNgJCrzsVClqcL"> sahadatfahim999@gmail.com</a>
+                   </div>
+                
+                  <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                     <a href="https://nstu.edu.bd/">Noakhali Science and Technology University</a>
+                    </div>
+                </div> -->
+             </section>
+             <!-- contact section er shesh -->
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>Contact</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="tel:+8801859920189">
+                                <i class="fa-solid fa-phone"></i> 01859920189
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJlDTMJQbPdcRDRxnkCfwZzjLztKNcnMLtqLqPrfMNXNBZfmtKmgGlTjvKNgJCrzsVClqcL">
+                                <i class="fa-solid fa-envelope"></i> sahadatfahim999@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/qr/ENMANXS2WFMXM1" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/sahadatnstu" target="_blank">
+                                <i class="fab fa-telegram"></i> Telegram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://nstu.edu.bd/">
+                                <i class="fa-solid fa-location-dot"></i> NSTU
+                            </a>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Links</h3>
+                    <ul class="list">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3>Follow Me</h3>
+                    <div class="footer__social">
+                        <div class="social-icons" id="social-icon">
+                          <a href="https://www.linkedin.com/in/pentester-sahadat-hossain/" class="home__social-icon" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                          </a>
+                          <a href="https://x.com/sahadatsec" class="home__social-icon" target="_blank">
+                            <i class='bx bxl-twitter'></i>
+                          </a>
+                          <a href="https://www.facebook.com/md.sahadat.hossain.fahim" class="home__social-icon" target="_blank">
+                            <i class='bx bxl-facebook'></i>
+                          </a>
+                          <a href="https://github.com/sahadatx" class="home__social-icon" target="_blank">
+                            <i class='bx bxl-github'></i>
+                          </a>
+                          <a href="https://medium.com/@pentester.sahadathossain" class="home__social-icon" target="_blank">
+                            <i class='bx bxl-medium'></i>
+                          </a>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+            </div>
+            <div class="bottom-bar">
+                &copy, copyright@2025 by <span>Sahadat Hossain</span> <br>| all rights reserved!
+            </div>
+        </footer>
+    
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
