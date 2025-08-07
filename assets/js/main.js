@@ -102,3 +102,10 @@ const roles = ["Penetration Tester", "Cyber Security Researcher"];
   }
 
   document.addEventListener("DOMContentLoaded", type);
+
+
+  function showTextBox() {
+    document.getElementById('certImage').style.display = 'none';
+    document.getElementById('certText').style.display = 'flex';
+  }
+
