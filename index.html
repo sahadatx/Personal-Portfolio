@@ -80,19 +80,6 @@
                     </div>                      
                   </div>                  
                 
-             
-
-                <!-- <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/Formal.png"/>
-                        </g>
-                    </svg>
-                </div> -->
             </section>
 
             <!--===== ABOUT =====-->
@@ -101,7 +88,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/Formal5.png" alt="">
+                        <img src="assets/img/Formal.png" alt="">
                     </div>
                     
                     <div class="about__description">
@@ -212,11 +199,22 @@
             
             <section class="certification section" id="certification">
                 <h2 class="section-title">My Certification</h2>
+              
                 <div class="certification__container bd-grid">
-                    <a href="" class="certification_img">
-                        <img src="assets/img/Certificate.jpg" alt="">
-                    </a>
+              
+                  <!-- Certificate container with hover effect -->
+                  <div class="cert-box">
                     
+                    <!-- Certificate image -->
+                    <img src="assets/img/Certificate.jpg" alt="Certificate" class="cert-image">
+              
+                    <!-- Green overlay box (hidden by default, shown on hover) -->
+                    <div class="cert-text">
+                      Ethical Hacking For <br> Professional by Byte Capsule
+                    </div>
+              
+                  </div>
+              
                 </div>
             </section>
 
@@ -250,27 +248,6 @@
                         <input type="submit" value="Send Message" class="button" id="contact_b" name="submit">
                     </form>
                 </div>
-                
-                <!-- <div class="box-container">
-                   <div class="box">
-                        <i class="fas fa-phone"></i>
-                        <h3>Phone Number</h3>
-                        <a href="tel:01859920189"> 01859920189</a>
-                        
-                    </div>
-        
-                  <div class="box">
-                    <i class="fas fa-envelope"></i>
-                    <h3>E-mail address</h3>
-                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJlDTMJQbPdcRDRxnkCfwZzjLztKNcnMLtqLqPrfMNXNBZfmtKmgGlTjvKNgJCrzsVClqcL"> sahadatfahim999@gmail.com</a>
-                   </div>
-                
-                  <div class="box">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Location</h3>
-                     <a href="https://nstu.edu.bd/">Noakhali Science and Technology University</a>
-                    </div>
-                </div> -->
              </section>
              <!-- contact section er shesh -->
         </main>
@@ -278,7 +255,7 @@
         <!--===== FOOTER =====-->
         <footer>
             <div class="container">
-                <div class="footer-content">
+                <div class="footer-content" id="footer-content1">
                     <h3>Contact</h3>
                     <ul class="list">
                         <li>
@@ -287,8 +264,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJlDTMJQbPdcRDRxnkCfwZzjLztKNcnMLtqLqPrfMNXNBZfmtKmgGlTjvKNgJCrzsVClqcL">
-                                <i class="fa-solid fa-envelope"></i> sahadatfahim999@gmail.com
+                            <a href="mailto:pentester.sahadathossain@gmail.com">
+                                <i class="fa-solid fa-envelope"></i> pentester.sahadathossain@gmail.com
                             </a>
                         </li>
                         <li>
@@ -311,9 +288,9 @@
                 <div class="footer-content">
                     <h3>Quick Links</h3>
                     <ul class="list">
-                        <li><a href="Home.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-content">
