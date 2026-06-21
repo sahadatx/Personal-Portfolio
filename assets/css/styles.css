@@ -98,6 +98,7 @@ img {
 }
 
 
+
 .certification__container {
   display: flex;
   justify-content: center;
@@ -141,6 +142,21 @@ img {
 
 .cert-box:hover .cert-text {
   opacity: 1;
+}
+
+.certification__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.cert-box{
+    width: 100%;
+}
+
+.cert-image{
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*===== LAYOUT =====*/
