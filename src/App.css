@@ -269,6 +269,15 @@ html{scroll-padding-top:88px}
 }
 @media(max-width:480px){.education-section .journey-card-top{align-items:flex-start;flex-direction:column;gap:8px}.education-section .journey-period{margin-left:0}}
 
+/* PDF credentials use a matching preview instead of a broken image element. */
+.cert-image.cert-document{display:grid;place-items:center;background:radial-gradient(ellipse at 50% 35%,#1d3557,#0b1421 72%)}
+.cert-document-preview{display:flex;width:100%;height:100%;min-height:150px;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:14px;color:#91b5f4;text-align:center}
+.cert-document-preview svg{width:30px;height:30px;stroke-width:1.6}
+.cert-document-preview span{font:500 8px var(--mono);letter-spacing:.12em;color:#91b5f4}
+.cert-document-preview b{max-width:90%;font:500 10px/1.5 var(--sans);color:#d7e4f8}
+.project-concept-label{display:inline-flex;min-height:37px;align-items:center;justify-content:center;gap:7px;padding:0 10px;border:1px solid #354b68;border-radius:7px;background:#142137;color:#aabbd2;font:600 10px var(--sans)}
+@media(max-width:680px){.project-concept-label{min-height:42px}}
+
 /* Credential cards use a clear, consistent document action */
 .cert-card{display:flex;flex-direction:column}
 .cert-details{display:flex;flex:1;flex-direction:column;align-items:flex-start}
