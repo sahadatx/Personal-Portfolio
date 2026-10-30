@@ -100,4 +100,11 @@ export const certifications: Certification[] = [
     document: assetUrl('images/certificates/CertificateOfCompletion_Microsoft Azure DevOps Engineer Expert AZ400 Cert Prep by Microsoft Press.pdf'),
     preview: assetUrl('images/certificates/CertificateOfCompletion_Microsoft Azure DevOps Engineer Expert AZ400 Cert Prep by Microsoft Press-preview.jpg'),
   },
+  {
+    name: 'AWS Certified DevOps Engineer Professional (DOP-C02) Cert Prep',
+    issuer: 'LinkedIn Learning',
+    type: 'Course Completion',
+    document: assetUrl('images/certificates/CertificateOfCompletion_AWS Certified DevOps Engineer Professional DOPC02 Cert Prep.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_AWS Certified DevOps Engineer Professional DOPC02 Cert Prep-preview.jpg'),
+  },
 ]
