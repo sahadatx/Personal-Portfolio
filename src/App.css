@@ -393,3 +393,5 @@ html{scroll-padding-top:88px}
  .footer>a:last-child{grid-column:1;grid-row:auto}
  .footer>span{grid-row:auto}
 }
+.cert-image img{object-fit:contain;opacity:1;background:#f4f6fa}
+.cert-image:hover img{opacity:1;transform:none}

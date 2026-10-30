@@ -21,12 +21,14 @@ export const certifications: Certification[] = [
     issuer: 'LinkedIn Learning · Cybrary',
     type: 'Learning Path Completion',
     document: assetUrl('images/certificates/CertificateOfCompletion_Penetration Testing Professional Certificate by Cybrary.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Penetration Testing Professional Certificate by Cybrary-preview.jpg'),
   },
   {
     name: 'API Penetration Testing',
     issuer: 'APIsec',
     type: 'Course Certificate',
     document: assetUrl('images/certificates/API Pentesting APISEC.pdf'),
+    preview: assetUrl('images/certificates/API Pentesting APISEC-preview.jpg'),
   },
   {
     name: 'Junior Penetration Tester Internship',
@@ -40,6 +42,7 @@ export const certifications: Certification[] = [
     issuer: 'LinkedIn Learning',
     type: 'Course Completion',
     document: assetUrl('images/certificates/API Pentesting Linkedin.pdf'),
+    preview: assetUrl('images/certificates/API Pentesting Linkedin-preview.jpg'),
   },
   {
     name: 'Outstanding Performance in AI Interview',
@@ -53,12 +56,14 @@ export const certifications: Certification[] = [
     issuer: 'LinkedIn Learning',
     type: 'Course Completion',
     document: assetUrl('images/certificates/CertificateOfCompletion_Offensive Penetration Testing.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Offensive Penetration Testing-preview.jpg'),
   },
   {
     name: 'Penetration Testing Essential Training (2021)',
     issuer: 'LinkedIn Learning',
     type: 'Course Completion',
     document: assetUrl('images/certificates/CertificateOfCompletion_Penetration Testing Essential Training 2021.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Penetration Testing Essential Training 2021-preview.jpg'),
   },
   {
     name: 'Advanced Real Bug Bounty Case Studies — Volume 1',
@@ -72,23 +77,27 @@ export const certifications: Certification[] = [
     issuer: 'LinkedIn Learning',
     type: 'Course Completion',
     document: assetUrl('images/certificates/CertificateOfCompletion_Writing Secure Code for Android by Infosec.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Writing Secure Code for Android by Infosec-preview.jpg'),
   },
   {
     name: 'Getting Started with DevOps',
     issuer: 'LinkedIn Learning',
     type: 'Learning Path',
     document: assetUrl('images/certificates/CertificateOfCompletion_Getting Started with DevOps.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Getting Started with DevOps-preview.jpg'),
   },
   {
     name: 'Getting Started with Kubernetes',
     issuer: 'LinkedIn Learning',
     type: 'Learning Path',
     document: assetUrl('images/certificates/CertificateOfCompletion_Getting Started with Kubernetes.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Getting Started with Kubernetes-preview.jpg'),
   },
   {
     name: 'Microsoft Azure DevOps Engineer Expert (AZ-400) Cert Prep by Microsoft Press',
     issuer: 'LinkedIn Learning',
     type: 'Course Completion',
     document: assetUrl('images/certificates/CertificateOfCompletion_Microsoft Azure DevOps Engineer Expert AZ400 Cert Prep by Microsoft Press.pdf'),
+    preview: assetUrl('images/certificates/CertificateOfCompletion_Microsoft Azure DevOps Engineer Expert AZ400 Cert Prep by Microsoft Press-preview.jpg'),
   },
 ]
